@@ -3,7 +3,7 @@
     height: 68px;
 }
 
-.container {
+.container-first {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +39,7 @@
     margin-left: 0;
 }
 
-.content {
+.contents {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +167,7 @@
     padding: 50px 0;
 }
 
-.container {
+.container-second {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,4 +209,66 @@
 .card {
     width: 424px;
     height: auto;
+}
+
+
+.container-th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1336px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.placeholder-image {
+    width: 684px;
+    height: 600px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header {
+    text-align: center;
+}
+
+.exclusive-header {
+    font-family: 'Inter Semi Bold', sans-serif;
+    font-size: 16px;
+}
+
+.discount-header {
+    font-family: 'Inter Semi Bold', sans-serif;
+    font-size: 54px;
+}
+
+.description {
+    font-family: 'Inter Regular', sans-serif;
+    font-size: 18px;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer-text {
+    font-family: 'Inter Semi Bold', sans-serif;
+    font-size: 34px;
+}
+
+.shop-image-container {
+    flex: 1;
+}
+
+.shop-icon {
+    position: absolute;
+    bottom: 0;
 }
